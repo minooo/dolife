@@ -1,0 +1,40 @@
+.wrap:before {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 60px;
+  background: linear-gradient(to right, rgba(255, 255, 255, .8), rgba(255, 255, 255, 0));
+  z-index: 1;
+}
+
+.wrap:after {
+  @extend .wrap:before;
+  left: auto;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.marquee {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.animat {
+  composes: marquee;
+  animation-name: marquee_left;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes marquee_left {
+  0% {
+    transform: translate(0, -50%);
+  }
+  100% {
+    transform: translate(-100%, -50%);
+  }
+}

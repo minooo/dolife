@@ -1,0 +1,59 @@
+{
+  "presets": [
+    "react",
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    "babel-plugin-transform-decorators-legacy",
+    [
+      "import",
+      {
+        "style":"css",
+        "libraryName": "antd-mobile"
+      }
+    ],
+    [
+      "module-alias",
+      [
+        {
+          "src": "./app",
+          "expose": "app"
+        },
+        {
+          "src": "./app/actions",
+          "expose": "actions"
+        },
+        {
+          "src": "./app/utils",
+          "expose": "utils"
+        },
+        {
+          "src": "./app/components",
+          "expose": "components"
+        },
+        {
+          "src": "./assets",
+          "expose": "assets"
+        }
+      ]
+    ]
+  ],
+  "env": {
+    // only enable it when process.env.NODE_ENV is 'development' or undefined
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel",
+        [
+          "transform-runtime",
+          {
+            "helpers": false,
+            "polyfill": false,
+            "regenerator": true,
+            "moduleName": "babel-runtime"
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #ff9501;
+}
+
+.fw {
+  font-weight: 500;
+}
+
+.newmessage {
+  background-color: #f4333c;
+  border: 2px solid white
+}
+
+.border {
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.6);
+
+}

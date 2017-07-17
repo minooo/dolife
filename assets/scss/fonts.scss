@@ -1,0 +1,380 @@
+@font-face {
+  font-family: 'dudu';
+  src:
+          url('../fonts/dudu.ttf?66ak9m') format('truetype'),
+          url('../fonts/dudu.woff?66ak9m') format('woff'),
+          url('../fonts/dudu.svg?66ak9m#dudu') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="i-"], [class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dudu' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-about:before {
+  content: "\e900";
+}
+.i-buying:before {
+  content: "\e901";
+}
+.i-buying-v:before {
+  content: "\e902";
+}
+.i-camera:before {
+  content: "\e903";
+}
+.i-check:before {
+  content: "\e904";
+}
+.i-checked:before {
+  content: "\e905";
+}
+.i-check-o:before {
+  content: "\e906";
+}
+.i-close:before {
+  content: "\e907";
+}
+.i-close-c:before {
+  content: "\e908";
+}
+.i-close-o:before {
+  content: "\e909";
+}
+.i-coupon:before {
+  content: "\e90a";
+}
+.i-coupon-v:before {
+  content: "\e90b";
+}
+.i-cy:before {
+  content: "\e90c";
+}
+.i-del:before {
+  content: "\e90d";
+}
+.i-dfk:before {
+  content: "\e90e";
+}
+.i-dhjl:before {
+  content: "\e90f";
+}
+.i-dianhua:before {
+  content: "\e910";
+}
+.i-dianping:before {
+  content: "\e911";
+}
+.i-down:before {
+  content: "\e912";
+}
+.i-dtbb:before {
+  content: "\e913";
+}
+.i-edit:before {
+  content: "\e914";
+}
+.i-ewm:before {
+  content: "\e915";
+}
+.i-fanhui:before {
+  content: "\e916";
+}
+.i-favor:before {
+  content: "\e917";
+}
+.i-favor-o:before {
+  content: "\e918";
+}
+.i-gift-v:before {
+  content: "\e919";
+}
+.i-good:before {
+  content: "\e91a";
+}
+.i-guanyu:before {
+  content: "\e91b";
+}
+.i-help:before {
+  content: "\e920";
+}
+.i-help-o:before {
+  content: "\e921";
+}
+.i-hot:before {
+  content: "\e922";
+}
+.i-hui:before {
+  content: "\e923";
+}
+.i-index:before {
+  content: "\e924";
+}
+.i-jf:before {
+  content: "\e925";
+}
+.i-jfgz:before {
+  content: "\e926";
+}
+.i-jfhk:before {
+  content: "\e927";
+}
+.i-jianpan:before {
+  content: "\e928";
+}
+.i-jx:before {
+  content: "\e929";
+}
+.i-kttq:before {
+  content: "\e92a";
+}
+.i-ku:before {
+  content: "\e92b";
+}
+.i-left:before {
+  content: "\e92c";
+}
+.i-login:before {
+  content: "\e92d";
+}
+.i-lr:before {
+  content: "\e92e";
+}
+.i-map:before {
+  content: "\e92f";
+}
+.i-money:before {
+  content: "\e930";
+}
+.i-phb:before {
+  content: "\e931";
+}
+.i-pingjia:before {
+  content: "\e932";
+}
+.i-plus:before {
+  content: "\e933";
+}
+.i-qd:before {
+  content: "\e934";
+}
+.i-qiandao:before {
+  content: "\e935";
+}
+.i-qiang .path1:before {
+  content: "\e936";
+  color: rgb(0, 0, 0);
+}
+.i-qiang .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.i-qiang-s:before {
+  content: "\e938";
+}
+.i-qy:before {
+  content: "\e939";
+}
+.i-right:before {
+  content: "\e93a";
+}
+.i-rim:before {
+  content: "\e93b";
+}
+.i-rimmap:before {
+  content: "\e93c";
+}
+.i-rmb:before {
+  content: "\e93d";
+}
+.i-search:before {
+  content: "\e93e";
+}
+.i-set:before {
+  content: "\e93f";
+}
+.i-shijian:before {
+  content: "\e940";
+}
+.i-shijian-o:before {
+  content: "\e941";
+}
+.i-shop:before {
+  content: "\e942";
+}
+.i-shop-o:before {
+  content: "\e943";
+}
+.i-star:before {
+  content: "\e944";
+}
+.i-sysm:before {
+  content: "\e945";
+}
+.i-tag:before {
+  content: "\e946";
+}
+.i-tj:before {
+  content: "\e947";
+}
+.i-tq1:before {
+  content: "\e948";
+}
+.i-tq2:before {
+  content: "\e949";
+}
+.i-tq3:before {
+  content: "\e94a";
+}
+.i-tq4:before {
+  content: "\e94b";
+}
+.i-tq5:before {
+  content: "\e94c";
+}
+.i-tqhy:before {
+  content: "\e94d";
+}
+.i-user:before {
+  content: "\e94e";
+}
+.i-vipdis:before {
+  content: "\e94f";
+}
+.i-wdhb:before {
+  content: "\e950";
+}
+.i-wdye:before {
+  content: "\e951";
+}
+.i-wdyh:before {
+  content: "\e952";
+}
+.i-whx:before {
+  content: "\e953";
+}
+.i-wl:before {
+  content: "\e954";
+}
+.i-wpj:before {
+  content: "\e955";
+}
+.i-wxpay:before {
+  content: "\e956";
+}
+.i-xfhy:before {
+  content: "\e957";
+}
+.i-yqg:before {
+  content: "\e958";
+}
+.i-ysy:before {
+  content: "\e959";
+}
+.i-ywc:before {
+  content: "\e95a";
+}
+.i-zxrz:before {
+  content: "\e95b";
+}
+.i-hytq:before {
+  content: "\e95c";
+}
+.i-rqhd:before {
+  content: "\e95d";
+}
+.i-vip2:before {
+  content: "\e95e";
+}
+.i-zstq:before {
+  content: "\e95f";
+}
+.i-sysm2:before {
+  content: "\e963";
+}
+.i-fwrx:before {
+  content: "\e964";
+}
+.i-cjjl:before {
+  content: "\e972";
+}
+.i-pthy:before {
+  content: "\e960";
+}
+.i-yy:before {
+  content: "\e961";
+}
+.i-gb:before {
+  content: "\e962";
+}
+.i-yinyue:before {
+  content: "\e91c";
+}
+.i-xinwen:before {
+  content: "\e91d";
+}
+.i-toupiao:before {
+  content: "\e91e";
+}
+.i-shiwu:before {
+  content: "\e91f";
+}
+.i-nongye:before {
+  content: "\e965";
+}
+.i-luntan:before {
+  content: "\e966";
+}
+.i-nannv:before {
+  content: "\e967";
+}
+.i-fangchan:before {
+  content: "\e968";
+}
+.i-gongyi:before {
+  content: "\e969";
+}
+.i-xuexi:before {
+  content: "\e96a";
+}
+.i-youxi:before {
+  content: "\e96b";
+}
+.i-vip:before {
+  content: "\e96c";
+}
+.i-ertong:before {
+  content: "\e96d";
+}
+.i-hb .path1:before {
+  content: "\e96e";
+  color: rgb(215, 60, 29);
+}
+.i-hb .path2:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(239, 76, 43);
+}
+.i-hb .path3:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(243, 213, 153);
+}
+.i-hb .path4:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(228, 137, 60);
+}

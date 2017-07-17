@@ -1,0 +1,13 @@
+.modalbox {
+  width: 580px;
+  height: 760px;
+  border-top: 4px solid #ff6162;
+}
+
+.modalmain {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  right: 20px;
+  overflow-y: auto;
+}

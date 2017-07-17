@@ -1,0 +1,35 @@
+.box {
+  background: #cd533e;
+  width: 560px;
+  height: 720px;
+  &:before {
+    width: 1000px;
+    height: 1000px;
+    content: '';
+    background: #d75940;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    box-shadow: #bb3e27 2px 5px 10px;
+  }
+}
+
+.rotate {
+  animation: animt-rotate 1s infinite;
+}
+
+@keyframes animt-rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+
+  }
+}
+
+.circle {
+  border: 5px solid #dcbc83;
+}

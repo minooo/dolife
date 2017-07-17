@@ -1,0 +1,31 @@
+.wrap {
+  position: relative;
+  min-height: 100px;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.inputBox {
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.4)
+}
+
+.linear {
+  @extend .header;
+  height: 100px;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+}
+
+.bg {
+  background-color: transparent;
+}
+
+.pr {
+  padding-right: 140px;
+}

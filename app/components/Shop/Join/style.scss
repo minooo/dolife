@@ -1,0 +1,22 @@
+.up {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  animation: mymove 1.5s infinite;
+
+}
+
+@keyframes mymove {
+  from {
+    top: -20px;
+    opacity: 1;
+  }
+  to {
+    top: -60px;
+    opacity: 0;
+  }
+}
+
+.link {
+  position: relative;
+}

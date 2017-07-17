@@ -1,0 +1,27 @@
+.keyBtn {
+  border: 1px solid #e5e5e5;
+  border-width: 1px 1px 0 0;
+}
+
+.backspaceBtn {
+  border-top: 1px solid #e5e5e5;
+}
+
+.payBtn {
+  background-color: rgb(102, 210, 99);
+}
+
+.inputFocus {
+  border-right-width: 3px;
+  border-right-style: solid;
+  animation: inputSplit 1s infinite;
+}
+
+@keyframes inputSplit {
+  from {
+    border-color: rgba(27, 188, 155, .0);
+  }
+  to {
+    border-color: rgba(27, 188, 155, 1);
+  }
+}

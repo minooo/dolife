@@ -1,0 +1,47 @@
+.tips {
+  border-bottom-right-radius: 10px;
+}
+
+.btn {
+  border: 3px solid #ff9501;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 140px;
+  color: #b2b2b2;
+}
+
+.box {
+  position: relative;
+  border-right: 3px dotted #e1e1e1;
+  &:before, &:after {
+    width: 20px;
+    height: 20px;
+    content: '';
+    border-radius: 50%;
+    background: #f2f3f5;
+    position: absolute;
+    right: -10px;
+  }
+  &:before {
+    top: -10px;
+  }
+  &:after {
+    bottom: -10px;
+  }
+}
+
+.box2 {
+  position: relative;
+  &:before {
+    border-right: 5px dotted #f5f5f5;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+}

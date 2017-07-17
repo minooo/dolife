@@ -1,0 +1,19 @@
+.box {
+  display: inline-block;
+  &:before,
+  &:after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    //border-right:8px dotted #fff;
+    top: 0;
+  }
+  &:before {
+    left: -4px;
+  }
+  &:after {
+    right: -4px;
+  }
+}

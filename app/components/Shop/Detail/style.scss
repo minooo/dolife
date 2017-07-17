@@ -1,0 +1,27 @@
+.head {
+  position: relative;
+}
+
+.hot {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.animat {
+  position: absolute;
+  white-space: nowrap;
+  width: auto;
+  animation-name: marquee_left;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes marquee_left {
+  0% {
+    transform: translateX(470px);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

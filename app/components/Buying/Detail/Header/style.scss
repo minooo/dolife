@@ -1,0 +1,21 @@
+.header {
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+}
+
+.rgba {
+  background-color: rgba(255, 158, 5, .7);
+  border-radius: 0 30px 30px 0;
+}
+
+.title {
+  text-shadow: 0px 1px 0px #000;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .7));
+}

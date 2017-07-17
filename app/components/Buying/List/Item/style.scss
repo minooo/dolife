@@ -1,0 +1,39 @@
+.head {
+  position: relative;
+  overflow: hidden;
+}
+
+.hot {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.time {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.stock {
+  position: absolute;
+  padding-left: 80px;
+  padding-right: 80px;
+  top: 20px;
+  left: -85px;
+  background-color: rgba(255, 85, 0, .7);
+  transform: rotate(-45deg)
+}
+
+.bg {
+  position: absolute;
+  padding-top: 60px;
+  width: 100%;
+  bottom: 5px;
+  left: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .7));
+}
+
+.fw {
+  font-weight: 900;
+}

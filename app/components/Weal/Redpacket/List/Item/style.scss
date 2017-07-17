@@ -1,0 +1,19 @@
+.time {
+  background: #cecece;
+}
+
+.redpacket {
+  border-radius: 10px 10px 0 0;
+  &:before {
+    display: block;
+    content: '';
+    position: absolute;
+    left: -29px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border: 15px solid #f99d3a;
+    border-color: transparent #f99d3a transparent transparent;
+  }
+}

@@ -1,0 +1,140 @@
+.lottobg {
+  position: absolute;
+  width: 100%;
+  top: 50vw;
+  bottom: 0;
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &:before {
+    background: #faebcc;
+    width: 120%;
+    height: 200px;
+    border-radius: 50%;
+    top: -100px;
+  }
+  &:after {
+    background: url("http://public.duduapp.net/duLifeImg/lottocaidai.png") no-repeat;
+    width: 100%;
+    height: 358px;
+    background-size: cover;
+    top: -240px;
+  }
+}
+
+.rule {
+  background: #ba0c0b;
+  position: absolute;
+  top: 0;
+  right: 60px;
+}
+
+.ruleArrow {
+  &:before {
+    content: '';
+    position: absolute;
+    border-width: 44px;
+    border-color: #ba0c0b #ba0c0b transparent #ba0c0b;
+    top: -3px;
+    border-style: solid;
+    left: 0px;
+    transform: scaleY(0.6) translateY(-50%);
+  }
+}
+
+.wrap {
+  background: linear-gradient(#fd603f, #ff3c36);
+  box-shadow: #fbd981 15px 15px 50px;
+}
+
+.box {
+  background-color: #d12727;
+}
+
+.title {
+  width: 451px;
+  height: 164px;
+  background: url("http://public.duduapp.net/duLifeImg/lottocat.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -135px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 110px;
+  padding-left: 70px;
+  padding-right: 70px;
+  box-sizing: border-box;
+  line-height: 40px;
+}
+
+.item {
+  background: #fef8d4;
+  box-shadow: #edaea7 0px 6px 0px;
+}
+
+.itemImg {
+  background-color: #fbf2b9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 90%;
+  height: 70px;
+}
+
+.focus {
+  background: #fed049;
+}
+
+.nothing {
+  color: #8c62ec;
+}
+
+.startBtn {
+  composes: item;
+  background: #fed04b;
+  color: #a71c1f;
+  box-shadow: #ff5001 0px 6px 0px;
+  &:before, &:after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 4px solid #e49e2e;
+    background: #fffde4;
+    border-radius: 50%;
+  }
+  &:before {
+    left: 10px;
+  }
+  &:after {
+    right: 10px;
+  }
+}
+
+.btn {
+  background: linear-gradient(#ff844b, #ff3c36);
+  box-shadow: #fbd981 10px 10px 30px;
+}
+
+.modalbox {
+  width: 90%;
+  height: 70%;
+  border-top: 4px solid #ff6162;
+}
+
+.modalbox2 {
+  width: 90%;
+}
+
+.modalmain {
+  overflow-y: auto;
+}
+
+.awardImg {
+  width: 200px;
+  height: 150px;
+}

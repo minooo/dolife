@@ -1,0 +1,37 @@
+.header {
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+}
+
+.headerBox {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+}
+
+.active {
+  span {
+    display: block;
+  }
+  &:after {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%);
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid white;
+  }
+}
+
+.border {
+  border: 2px solid #dffff9;
+}
+
+.icons {
+  margin-left: 0.8rem;
+}

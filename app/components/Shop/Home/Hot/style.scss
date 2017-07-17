@@ -1,0 +1,30 @@
+.wrap {
+  width: auto;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.item {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.label {
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+
+.labelArrow {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #f0393b;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}

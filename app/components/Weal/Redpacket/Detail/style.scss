@@ -1,0 +1,31 @@
+.bg {
+  background: #fff;
+  &:before {
+    width: 2000px;
+    height: 1500px;
+    content: '';
+    background: #e0e0e0;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+  }
+  &:after {
+    width: 1600px;
+    height: 1200px;
+    content: '';
+    background: #d75940;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -75.2%);
+  }
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
