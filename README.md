@@ -6,7 +6,7 @@
 
 - 由于本项目是完全基于微信端的，又所有数据只能在线上项目获取  
 （故项目在本地无法跑起来，外行看demo，内行看code?）。  
-如果想看该项目实际效果，请用微信扫描下方二维码  
+如果想看该项目实际效果，请用微信扫描下方二维码 ↓
 
 ![dolife.png](http://upload-images.jianshu.io/upload_images/111568-8d97a4acd6f0413e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
