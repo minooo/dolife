@@ -13,7 +13,7 @@
   "homepage": "https://www.dolife.me",
   "repository": {
     "type": "git",
-    "url": "git@git.coding.net:liyangmsn/dolife_frontend_v4.git"
+    "url": "git@github.com:minooo/dolife.git"
   },
   "dependencies": {
     "antd-mobile": "^1.4.1",
